@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28586e1d7f5845908d7b4cecfedee990, type: 3}
+  m_Name: Car - Ford Mustang 2023
+  m_EditorClassIdentifier: 
+  engine: {fileID: 11400000, guid: 196b4bd538067164e85107bdf1ae4ad3, type: 2}
+  transmission: {fileID: 11400000, guid: 857c648171f5c924db8052ba21f7a475, type: 2}
+  differential: {fileID: 11400000, guid: 6e1a7bd87f83a6e448ea134dcd2a013e, type: 2}
+  frontAxle:
+    motor: 0
+    steering: 1
+  rearAxle:
+    motor: 1
+    steering: 0
+  mass: 1754.795
+  maxSteering: 30
